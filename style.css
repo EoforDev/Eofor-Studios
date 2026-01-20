@@ -5,7 +5,6 @@ body {
   color: #050505;
   font-family: "Funnel Display", sans-serif;
   font-optical-sizing: auto;
-  /* Corrigido: font-weight não aceita essa sintaxe no CSS puro, apenas em fontes variáveis */
   font-weight: 400; 
   font-style: normal;
   display: flex;
@@ -15,27 +14,25 @@ body {
   text-align: center;
   min-height: 100vh;
   margin: 0;
-  padding: 20px; /* Adicionado para evitar que o conteúdo encoste nas bordas em telas pequenas */
+  padding: 20px;
   box-sizing: border-box;
 }
 
-/* --- Ajustes de Responsividade --- */
-
 .logo-container img {
-  max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho da tela */
-  width: 250px;    /* Tamanho padrão */
+  max-width: 100%;
+  width: 250px;
   height: auto;
   margin-top: 20px;
 }
 
 .descricao {
-  max-width: 100%; /* Essencial para mobile */
-  width: 350px;    /* Largura ideal para leitura */
+  max-width: 100%;
+  width: 500px;
   margin: 10px auto;
-  font-size: 1.1rem; /* Uso de rem para melhor escalonamento de fonte */
+  font-size: 1.1rem;
   line-height: 1.6;
   text-align: justify;
-  padding: 0 10px; /* Respiro lateral */
+  padding: 0 10px;
 }
 
 /* Media Query para Celulares Pequenos */
