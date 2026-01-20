@@ -29,21 +29,21 @@ body {
   max-width: 100%;
   width: 500px;
   margin: 10px auto;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.6;
   text-align: justify;
   padding: 0 10px;
 }
 
 /* Media Query para Celulares Pequenos */
-@media (max-width: 480px) {
+@media (max-width: 450px) {
   .descricao {
-    text-align: center; /* No celular, o texto centralizado costuma ler melhor que o justificado */
+    text-align: justify;
     font-size: 1rem;
   }
   
   .socials {
-    gap: 15px; /* Diminui o espaço entre ícones em telas apertadas */
+    gap: 15px;
   }
 
   .logo-wrapper {
