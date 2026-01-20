@@ -39,7 +39,7 @@ a {
 }
 
 .descricao {
-  max-width: 500px;
+  max-width: 350px;
   margin: 10px auto;
   font-size: 20px auto;
   line-height: 1.5;
@@ -87,7 +87,7 @@ a {
 }
 
 .logo {
-  max-width: 140px;
+  max-width: 80px;
   height: auto;
   opacity: 0;
   position: relative;
